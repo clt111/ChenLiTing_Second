@@ -1,0 +1,281 @@
+.main{
+    margin-top: 130px;  
+    height: 1000px;
+}
+.main_left{
+    float:left;
+    width: 686px;
+    margin-right: 24px;
+    height: 4000px;
+    background-color: #fff;
+}
+.main_right{
+    float: left;
+    width: 250px; 
+}
+.main nav{
+    border-bottom: 1px solid  #f4f5f5;
+}
+.main nav ul{
+    height: 50px;
+    margin-left: 25px;
+  
+}
+.main nav ul li:nth-child(2n){
+    width: 2px;
+    height: 15px;
+    background-color:#d7d8d8;
+    margin:15px;
+}
+.main nav ul li{
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    color: #a7a6a9;
+    cursor: pointer;
+}
+.main nav ul li:hover{
+    color: #3c8dff;
+}
+.main_right .dl{
+    width: 100%;
+    height: 270px;
+    font-size: 14px;
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+.main_right h6{
+    padding: 18px 0 0 15px;
+    font-size: 14px;
+}
+.main_right .dl .in-number{
+    width: 130px;
+    height: 100%;
+    border:none;
+    outline: none;
+}
+.main_right .dl .onnumber1,
+.main_right .dl .onyz1{
+    width: 207px;
+    height: 35px;
+    margin: 10px 15px;
+    border: 1px solid #dadada;
+}
+.main_right button{
+    display: block;
+    width: 210px;
+    height: 35px;
+    background-color:#007fff;
+    color: #fff;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+}
+.main_right .onyz1 .yzm{
+    float: left;
+    width: 84px;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+.main_right .onyz1 button{
+    background-color: #fff;
+    color: #007fff;
+}
+.main_right .onyz1 button{
+    width: 100px;
+    float: left;
+}
+.main_right p{
+    padding: 4px 15px;
+}
+.main_right .dl i{
+    color: #007fff;
+    font-size: 14px;
+}
+.main_right .advertisement{
+    position: relative;
+    margin-top: 15px;
+    width: 250px;
+    height: 200px;
+}
+.advertisement::after{
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    content: '广告';
+    width: 35px;
+    height: 20px;
+    border: 1px solid #fff;
+    background-color:#00266b;
+    color: #fff;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.advertisement img{
+    width: 100%;
+    height: 100%;
+}
+.advertisement-offer{
+    margin-top: 15px;
+    width: 250px;
+    height: 85px;
+}
+.advertisement-offer img{
+    width: 100%;
+    height: 100%;
+}
+.advertisement-code{
+    width: 250px;
+    height: 80px;
+    background-color: #fff;
+}
+.advertisement-code img{
+    float: left;
+    margin: 15px 12px;
+    width: 50px;
+    height: 50px;
+}
+.advertisement-code h5{
+    padding: 20px 0 10px 0 ;
+    font-weight: normal;
+}
+.rank{
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+.rank-title{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.rank-icon{
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.rank ul li{
+    padding: 10px 0 10px 15px;
+}
+.rank ul li img{
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rank ul li .rank_yh{
+    float: left;
+}
+.rank ul li svg{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.rank ul li:nth-child(3) svg{
+    font-size: 30px;
+}
+.rank_more{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #f4f5f5;
+}
+.rank_more p{
+    float: left;
+    width: 100%;
+    text-indent: 85px;
+    line-height: 20px;
+    color:#177bff;
+    font-size: 14px;
+}
+.rank_more p::after{
+    content: '\e601';
+    font-family: 'iconfont';
+}
+.juejin_more{
+    margin-top: 15px;
+    background-color: #fff;
+
+}
+.juejin_more ul li{
+    padding: 10px;
+}
+.juejin_more ul li .juejin_more-i{
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.juejin_more ul li .juejin_more-i img{
+    width: 100%;
+    height: 100%;
+}
+.juejin_more ul li p{
+    padding: 12px;
+    float: left;
+}
+.ex-message{
+    width: 100%;
+    margin-top: 15px;
+}
+.ex-message p{
+    color: #b2b5b3;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.ex-message p a{
+    display: inline-block;
+    color: #b2b5b3;
+}
+.ex-message p a:hover{
+    color:#007fff;
+    font-size: 12px;
+}
+.weibo,
+.weixin{
+    float: left;
+    margin-top: 10px;
+   font-size: 25px;
+}
+.weixin{
+    margin-left: 15px;
+}
+.wz ul{
+    width: 100%;
+}
+.wz ul .wz-list{
+    position: relative;
+    margin: 20px;
+    width: 645px;
+    height: 190px;
+    border-bottom: 1px solid #f4f5f5;
+}
+.wz ul li{
+    float: left;
+}
+.wz-message ul li:nth-child(2){
+    width: 2px;
+    height: 12px;
+    margin:0 10px;
+    background-color: #b2b5b3;
+}
+
+.wz ul .wz-fl {
+    float: right;
+}
+.hd-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.dz,
+.pl,
+.fx{
+    float: left;
+}
